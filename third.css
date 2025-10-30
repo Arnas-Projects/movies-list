@@ -1,0 +1,26 @@
+body {
+  background-image: url("main-bg.jpg"); /* path to your image */
+  background-size: cover; /* makes image cover the whole screen */
+  background-repeat: no-repeat; /* no repeating tiles */
+  background-attachment: fixed; /* makes it stay still when scrolling */
+  background-position: center; /* centers the image */
+  color: white; /* optional — improves contrast */
+}   
+
+
+a:link {
+  color: white; /* link before being clicked */
+}
+
+a:visited {
+  color: yellow; /* after you've clicked it */
+}
+
+a:hover {
+  color: orange; /* when you hover mouse over it */
+}
+
+a:active {
+  color: red; /* while clicking it */
+}
+/* Sitos taisykles apibudina teksto SU LINK'U spalva */

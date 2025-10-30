@@ -1,0 +1,87 @@
+body {
+  background-image: url("main-bg2.jpg"); /* path to your image */
+  background-size: cover; /* makes image cover the whole screen */
+  background-repeat: no-repeat; /* no repeating tiles */
+  background-attachment: fixed; /* makes it stay still when scrolling */
+  background-position: center; /* centers the image */
+  color: white; /* optional — improves contrast */
+}   
+/* Sita taisykle nurodo background'o failo path'a mano kompe, pritaiko dydi, sucentruoja paveiksliuka pagal ekrano dydi */
+
+
+
+.movies {
+  text-align: center;
+  font-size: 0;
+}  
+
+.movie {
+  display: inline-block;
+  width: calc(33.333% - 30px);
+  min-width: 250px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  vertical-align: top;
+}  
+
+
+
+
+
+
+/* #special_1 {
+    color: #35de2f;
+}
+
+
+#special_2 {
+    color: lightcoral;
+} */
+
+h2 {
+  color: #e8e87b;
+} /* Filmu pavadinimu spalva*/
+
+b, strong {
+  color: burlywood;
+  font-weight: 600;
+  letter-spacing: 3px;
+} /* bold fonto nustatymai */
+
+h1, p, a, li {
+  color: white; 
+  text-shadow:
+    0px  1px 0 black,  
+    0px  1px 0 black,
+    0px  1px 0 black,
+   -1px  1px 0 black;
+}
+/* Sita taisykle aplink nurodyta teksta h1, h2 ir tt uzdeda šešėlį, pagal pasirinkta spalva */
+
+h1, h2, p, a, li {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 100;
+    letter-spacing: 1px;
+} /*font, šriftas */
+
+
+a:link {
+  color: white; /* link before being clicked */
+}
+
+a:visited {
+  color: #e0e06b; /* after you've clicked it */
+}
+
+a:hover {
+  color: orange; /* when you hover mouse over it */
+}
+
+a:active {
+  color: red; /* while clicking it */
+} /* Filmu listo LINK'ų spalvų nustatymai */
+

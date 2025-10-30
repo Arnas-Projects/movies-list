@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/ico"> <!-- Tagas pridedantis maza ikona narsykles skirtuke -->
+    <title>Movies list</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">   <!-- Tagas fonto keitimui -->
+    <link rel="stylesheet" href="task1.css"> <!-- cia dedam backgrounda -->
+
+    <!-- <link rel="stylesheet" href="website_background.css">
+    <link rel="stylesheet" href="main_background.css">
+    <link rel="stylesheet" href="Header.css"> -->
+</head>
+<body>
+    <main>
+        <section>
+            <h1>List of Cosa Nostra movies</h1>
+            <p>This is a list of Cosa Nostra, aka Mafia movies.</p>
+        </section>
+    </main>
+    <header>
+        <nav>
+            <ol>
+                <li><a href="1.html">Goodfellas</a></li>
+                <li><a href="2.html">Casino</a></li>
+                <li><a href="3.html">The Godfather: Part I</a></li>
+                <li><a href="4.html">The Irishman</a></li>
+                <li><a href="5.html">Donnie Brasco</a></li>
+                <li><a href="6.html">American Gangster</a></li>
+            </ol>
+        </nav>     
+        
+        <section class="movies">
+            <tr>
+                <div class="movie">
+                    <center><h2 id="special_1">Goodfellas</h2></center> <!-- <center> tag'as naudotas centruoti tekstą lentelės langelyje -->
+                    <center><a href="https://www.imdb.com/title/tt0099685/" target="__blank"> <img src="1cover.jpg" width="130"></a></center> <!-- <a href> tagas paspaudus ant paveikslelio nuveda i url  -->
+                    <center><p>Release date: <u>1990</u> Genre: <b>Crime</b></p></center> <!-- PASTABA: bold šrifto naršyklėj nerodo, nors uždėtas tagas -->
+                    <center><p>The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.</p></center>
+                </div>
+                <div class="movie">
+                    <center><h2>Casino</h2></center>
+                    <center><a href="https://www.imdb.com/title/tt0112641/" target="__blank"> <img src="2cover.jpg" width="130"></a></center>
+                    <center><p>Release date: <u>1995</u> Genre: <b>Drama</b></p>
+                    <center><p>In Las Vegas, two best friends a casino executive and a Mafia enforcer compete for a gambling empire and a fast-living, fast-loving socialite.</p></center>
+                </div>
+                <div class="movie">
+                    <center><h2>The Godfather: Part I</h2></center>
+                    <center><a href="https://www.imdb.com/title/tt0068646/" target="__blank"> <img src="3cover.jpg" width="130"></a></center>
+                    <center><p>Release date: <u>1972</u> Genre: <b>Crime drama</b></p></center>
+                    <center><p>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</p></center>
+                </div>
+            </tr>
+
+            <!--PASTABA: Kaip man padaryti <br> kad po eilute butu didesnis tarpas butent va sitoj vietoj-->
+
+            <tr>
+                <div class="movie">
+                    <h2 id="special_2">The Irishman</h2>
+                    <p>Release date: <u>2019</u> Genre: <b>Crime drama</b></p>
+                    <p>An illustration of Frank Sheeran's life, from W.W.II veteran to hit-man for the Bufalino crime family and his alleged assassination of his close friend Jimmy Hoffa.</p>
+                </div>
+                <div class="movie">
+                    <h2>Donnie Brasco</h2>
+                    <p>Release date: <u>1997</u> Genre: <b>Crime</b></p>
+                    <p>An FBI undercover agent infiltrates the mob and finds himself identifying more with the Mafia life at the expense of his regular one.</p>
+                </div>
+                <div class="movie">
+                    <h2>American Gangster</h2>
+                    <p>Release date: <u>2007</u> Genre: <b>Crime</b></p>
+                    <p>An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas.</p>
+                </div>
+            </tr>
+        </section> 
+        
+        
+        <!-- komentaras -->
+
+
+        <!-- 
+        <section>
+            <article>
+                <h2>Goodfellas</h2>
+                <p>Release date: <b>1990</b> Genre: <b>Crime</b></p>
+                <p>The story of Henry Hill and his life in the mafia, covering his relationship
+                    <br>with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.</br></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Casino</h2>
+                <p>In Las Vegas, two best friends a casino executive and a Mafia enforcer
+                    <br>compete for a gambling empire and a fast-living, fast-loving socialite.</br></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>The Godfather: Part I</h2>
+                <p>The aging patriarch of an organized crime dynasty transfers 
+                    <br>control of his clandestine empire to his reluctant son.</br></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>The Irishman</h2>
+                <p>An illustration of Frank Sheeran's life, from W.W.II veteran to hit-man for 
+                    <br>the Bufalino crime family and his alleged assassination of his close friend Jimmy Hoffa.</br></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Donnie Brasco</h2>
+                <p>An FBI undercover agent infiltrates the mob and finds himself 
+                    <br>identifying more with the Mafia life--at the expense of his regular one.</br></p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>American Gangster</h2>
+                <p>An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas.</p>
+            </article>
+        </section> 
+        -->
+
+    </header>
+</body>
+</html>
